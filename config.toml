@@ -1,14 +1,14 @@
 baseurl = "https://stoic-cori-a2fab2.netlify.app/"
 title = "運用０円の静的サイトブログ"
-languageCode = "ja"
-DefaultContentLanguage = "ja"
+languageCode = "ja-jp"
+DefaultContentLanguage = "ja-jp"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
 
 [Author] # Used in authorbox
-  name = "Scout Master"
-  bio = "The Scout Master is the leader of this local scout group"
-  avatar = "img/avatar.png"
+  name = "KEISUKE SAKAGAMI"
+  bio = "2020.7Web系企業転職 / 2020.1～3プログラミングスクール / 2019.10～2020.1某自動車工場勤務 / 2018.10～2019.10無農薬野菜農家研修 / 2001.4～2018.9地方公務員(道路行政/建設WaterFallですべての職務を経験）"
+  avatar = "img/myimage.jpg"  #StaticSiteGeneratorBlog/themes/hugo-dpsg/static/img/myimage.jpg
 
 [Params]
   description = "Welcome to our scout group!" # Site description. Used in meta description
@@ -29,10 +29,10 @@ theme = "hugo-dpsg"
   highlightColor = "#003056" # Override main theme color
 
 [Params.logo]
-  image = "img/placeholder.png" # Logo image. Path relative to "static"
-  header = "img/header.jpg" # Header image. Path relative to "static"
-  title = "Hugo DPSG" # Logo title, otherwise will use site title
-  subtitle = "Welcome to our group site" # Logo subtitle
+  image = "" # Logo image. Path relative to "static"
+  header = "img/myheader.jpg" # Header image. Path relative to "static"
+  title = "運用０円の静的サイトブログ" # Logo title, otherwise will use site title
+  subtitle = "Welcome to Static site blog with 0 yen operation" # Logo subtitle
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -53,13 +53,13 @@ theme = "hugo-dpsg"
 # Custom menu items, normally controlled via front matter in /content files
 [menu]
   [[menu.main]]
-    identifier = "start"
-    name = "Start"
+    identifier = "blog_index"
+    name = "ブログ記事一覧"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
+    identifier = "about_me"
+    name = "自己紹介"
     url = "/about/"
     weight = 2
