@@ -1,6 +1,6 @@
 baseurl = "https://stoic-cori-a2fab2.netlify.app/"
-title = "Hugo DPSG"
-languageCode = "de"
+title = "運用０円の静的サイトブログ"
+languageCode = "ja-jp"
 DefaultContentLanguage = "de"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
