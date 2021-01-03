@@ -1,4 +1,0 @@
-[submodule "redo"]
-	path = themes/hugo-dpsg
-	# url = git@github.com:pfadfinder-konstanz/hugo-dpsg.git
-	url = git://github.com/pfadfinder-konstanz/hugo-dpsg.git
